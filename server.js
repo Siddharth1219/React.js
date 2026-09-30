@@ -35,3 +35,7 @@ import { a } from './app.js';
 
 console.log(a);
 console.log(user);
+
+// ***************************************IMPORTANT********************************
+//  when we use {} to import a variable from another file, it means we are importing a named export. In this case, we are importing the variable a from the app.js file. Named exports allow us to export multiple variables from a single file and import them individually in other files.
+// but without {} we are importing the default export from the app.js file. In this case, we are importing the variable user. Default exports allow us to export a single variable from a file and import it without using {} in other files.
