@@ -25,3 +25,6 @@
 
 //  app.jsx is child ---> parent file is main.jsx  -----> index.html is grand parent of app.jsx and main.jsx
 
+
+
+// use rafce shortcut  key in app,jsx to create a functional component in react. it will automatically import react from 'react' and export default App at the end of the file.

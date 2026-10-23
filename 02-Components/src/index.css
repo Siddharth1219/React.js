@@ -1,0 +1,25 @@
+.card {
+  background-color: rgb(134, 37, 58);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(139, 200, 163);
+}
+
+.navbar {
+  background-color: rgb(145, 196, 62);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.cardd  {
+  color: rgb(142, 64, 187);
+  font-size: 24px;
+  margin: 0;
+}
