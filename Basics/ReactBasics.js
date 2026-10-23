@@ -9,43 +9,14 @@
 
 // Example:
 
-function Welcome() {
-return <h1>Hello, React!</h1>;
-}
+// function Welcome() {
+// return <h1>Hello, React!</h1>;
+// }
 
 // React was created by Facebook, now Meta, and is commonly used for single-page applications and modern web interfaces.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var h1 = document.createElement('h1');
-
-
-
-// h1.innerHTML = `Hello, I am Siddharth`;
-
-// console.log(h1);
-
-
-// document.body.appendChild(h1); //the elememt is append in the body of the html page
 
 
 
@@ -68,11 +39,20 @@ return <h1>Hello, React!</h1>;
 
 
 
+
+
+
+
+
 import user from './app.js';
 import { a } from './app.js';
 
 console.log(a);
 console.log(user);
+
+
+
+
 
 // ***************************************IMPORTANT********************************
 //  when we use {} to import a variable from another file, it means we are importing a named export. In this case, we are importing the variable a from the app.js file. Named exports allow us to export multiple variables from a single file and import them individually in other files.
@@ -84,3 +64,4 @@ console.log(user);
 
 
 // JSX -->> JSX is a syntax extension for JavaScript that allows us to write HTML-like code in our JavaScript files. It is used in React to define the structure and content of components. JSX is not valid JavaScript, so it needs to be transpiled into regular JavaScript before it can be executed by the browser. This is typically done using a tool like Babel, which converts JSX into React.createElement() calls that create the virtual DOM elements.
+//  JSX = HTML + JavaScript.() It allows us to write HTML-like code in our JavaScript files, which can make it easier to read and understand the structure of our components. JSX also allows us to use JavaScript expressions and variables within our HTML-like code, which can make it more dynamic and flexible.)
