@@ -1,0 +1,11 @@
+.hdr{
+    background-color: #39c86e;
+    padding: 10px 20px;
+    margin: 20px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    color: white;
+    position: relative;
+}

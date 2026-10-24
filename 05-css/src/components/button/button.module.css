@@ -1,0 +1,14 @@
+.btn{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color:rgb(248, 22, 22);
+  width: fit-content;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: rgb(238, 232, 232);
+}
+.und{
+  text-decoration: underline;
+}
