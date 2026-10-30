@@ -1,16 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const App = () => {
-  function btnClicked(){
-    console.log("Button Clicked");
-  }
 
-
-  return (
+    const [num, setNum] = useState(20)      //num for read only, and setnum is write only, useState is a hook which is used to manage state in functional components
+    const [user, setUser] = useState({name: "Siddharth", age: 30})   //user is an object which is used to store user data, and setUser is a function which is used to update the user data
+    return (
 
 
     <div>
-      <button onClick={btnClicked}>Click Me</button>
+      <h1>Value of Num is {num}</h1>
+      <h1>Value of User is {user.name}</h1>
+      <h1>Value of User is {user.age}</h1>
+      <button onClick={() => setNum(30)}>Marrr Dalo Mujheeee </button>
+      <button onClick={() => setUser({...user, name: "Siddharth Kumar"})}>Change Name</button>
+      <button onClick={() => setUser({...user, age: 31})}>Change Age</button>
     </div>
   )
 }
